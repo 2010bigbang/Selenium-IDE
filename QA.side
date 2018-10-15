@@ -1,0 +1,80 @@
+{
+  "id": "e4f26298-2ab4-470b-a546-ce6f71bd563d",
+  "version": "1.1",
+  "name": "QA",
+  "url": "http://wiki.libelle.com",
+  "tests": [{
+    "id": "c30fe95c-3084-4aa2-9bbb-cf79559cbdb3",
+    "name": "QATest",
+    "commands": [{
+      "id": "b36436cb-e8ef-4c52-b867-0b7ed3910926",
+      "comment": "",
+      "command": "open",
+      "target": "/index.php/Hauptseite",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e1e4019-ff32-4a26-86c1-e79a829b5895",
+      "comment": "",
+      "command": "click",
+      "target": "css=img[alt=\"qa.png\"]",
+      "targets": [
+        ["css=img[alt=\"qa.png\"]", "css"],
+        ["xpath=//img[@alt='qa.png']", "xpath:img"],
+        ["xpath=//div[@id='mw-content-text']/table/tbody/tr[3]/td[3]/a/img", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae1fd10d-de4d-48b3-a88b-100d708eab7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=img[alt=\"qa tests.png\"]",
+      "targets": [
+        ["css=img[alt=\"qa tests.png\"]", "css"],
+        ["xpath=//img[@alt='qa tests.png']", "xpath:img"],
+        ["xpath=//div[@id='mw-content-text']/table/tbody/tr/td[3]/a/img", "xpath:idRelative"],
+        ["xpath=//td[3]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "40bc883c-75be-4607-843f-0bd1f51483d1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=LDA",
+      "targets": [
+        ["linkText=LDA", "linkText"],
+        ["css=a[title=\"Qa/Testing LDA\"]", "css"],
+        ["xpath=//a[contains(text(),'LDA')]", "xpath:link"],
+        ["xpath=(//div[@id='vorlage-infobox-Name']/div/a)[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/Qa/Testing_LDA')]", "xpath:href"],
+        ["xpath=//td[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54d61e3f-4304-4474-bc52-a15add508088",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=3.1",
+      "targets": [
+        ["linkText=3.1", "linkText"],
+        ["css=a[title=\"Qa/Testresults/lda 3.1\"]", "css"],
+        ["xpath=//a[contains(text(),'3.1')]", "xpath:link"],
+        ["xpath=//div[@id='mw-content-text']/ul[3]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/index.php/Qa/Testresults/lda_3.1')]", "xpath:href"],
+        ["xpath=//ul[3]/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "57daf9f6-c7ac-4f60-88df-055c25443017",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c30fe95c-3084-4aa2-9bbb-cf79559cbdb3"]
+  }],
+  "urls": ["http://wiki.libelle.com/"],
+  "plugins": []
+}
