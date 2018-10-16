@@ -79,18 +79,6 @@
       ],
       "value": "Session timeout:"
     }, {
-      "id": "d9d52996-d46b-43a6-83fc-00a2687b9e8c",
-      "comment": "",
-      "command": "verifyValue",
-      "target": "xpath=//div[2]/div[2]/input",
-      "targets": [
-        ["css=.id-la-admin-session-timeout", "css:finder"],
-        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
-        ["xpath=//div[@id='id-app-pane-admin-settings-main']/div/div[2]/div[2]/div[2]/input", "xpath:idRelative"],
-        ["xpath=//div[2]/div[2]/input", "xpath:position"]
-      ],
-      "value": "3600"
-    }, {
       "id": "911e1d6f-50f5-4965-a116-f8bd53687706",
       "comment": "",
       "command": "verifyText",
@@ -217,7 +205,7 @@
       "id": "2619c557-7dfd-41ef-a705-cfe50a692ef1",
       "comment": "",
       "command": "verifyText",
-      "target": "css=.form3-block:nth-child(5) > .form3-header",
+      "target": "xpath=//div[3]/div[5]/div",
       "targets": [
         ["css=.form3-block:nth-child(5) > .form3-header", "css:finder"],
         ["xpath=//div[@id='id-app-pane-admin-settings-main']/div[5]/div", "xpath:idRelative"],
@@ -590,6 +578,13 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "c394419a-0fa3-470a-833b-b540a3b517ee",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "39cfc1c7-4392-4aa3-ab83-2c66b5672d84",
       "comment": "",
       "command": "click",
@@ -885,6 +880,20 @@
       ],
       "value": ""
     }, {
+      "id": "47df601f-24ae-4687-8456-016e6b8f55d4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//*[@id=\"id-app-pane-admin-parameters-editor\"]/fieldset/table/tbody/tr[3]/td[3]/div/span[2]/span[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72e76cc6-aeaf-45e3-9e66-4293a443ba5d",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "665849dd-4f25-4569-9ada-0cacbe8eb6a9",
       "comment": "",
       "command": "verifyText",
@@ -899,11 +908,1290 @@
       ],
       "value": "61"
     }, {
-      "id": "47df601f-24ae-4687-8456-016e6b8f55d4",
+      "id": "5703b107-b020-42b2-862c-162232b80ef9",
+      "comment": "",
+      "command": "click",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-button",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-button", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-button", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-button", "css:finder"],
+        ["xpath=//button[@id='param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-button']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[3]/td[3]/button", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "33f53100-db66-4b48-82b8-70bf988c15b7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[3]/td[2]/div/button[3]",
+      "targets": [
+        ["css=tr:nth-child(3) .param-list-editor-table-col-2-btn-reset", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[3]/td[2]/div/button[3]", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/div/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "434a33b4-aab5-445f-bbc4-e81ccf391e47",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[3]/td[2]/div/button",
+      "targets": [
+        ["css=tr:nth-child(3) .param-list-editor-table-col-2-btn-save", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[3]/td[2]/div/button", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dbde4246-ad5e-4607-95d5-36258c207adf",
       "comment": "",
       "command": "verifyElementPresent",
       "target": "//*[@id=\"id-app-pane-admin-parameters-editor\"]/fieldset/table/tbody/tr[3]/td[3]/div/span[2]/span[2]",
       "targets": [],
+      "value": ""
+    }, {
+      "id": "4346f637-b3d4-4f4f-9308-cb1f795d71f9",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e8d606f-364e-472b-a425-bb1fcf8b46a5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-display",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-display", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-display", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-display", "css:finder"],
+        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-display']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[3]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/span", "xpath:position"]
+      ],
+      "value": "60"
+    }, {
+      "id": "7445885c-37ae-47b6-8fe8-0a0b34b1ddfd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display", "css:finder"],
+        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/span", "xpath:position"]
+      ],
+      "value": "1440"
+    }, {
+      "id": "85a0a9c6-89c5-4394-8bd2-3df97c9204f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button", "css:finder"],
+        ["xpath=//button[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[3]/button", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "932d98c9-e710-4621-96ac-b4088622af4e",
+      "comment": "",
+      "command": "type",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-input",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-input", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-input", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-input", "css:finder"],
+        ["xpath=//input[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-input']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[2]/div/input", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/div/input", "xpath:position"]
+      ],
+      "value": "1441"
+    }, {
+      "id": "fa51b6ab-5f3e-46be-a1fc-88cd8b57b285",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[4]/td[2]/div/button",
+      "targets": [
+        ["css=tr:nth-child(4) .param-list-editor-table-col-2-btn-save", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[2]/div/button", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "db8e7981-0f8c-4a7e-b169-b39dd06519ed",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//*[@id=\"id-app-pane-admin-parameters-editor\"]/fieldset/table/tbody/tr[4]/td[3]/div",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b9715feb-6186-4e78-b098-fccb7eb4af44",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1407b3d5-6db7-4fce-913e-4a9da734396d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display", "css:finder"],
+        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/span", "xpath:position"]
+      ],
+      "value": "1441"
+    }, {
+      "id": "c766ab41-fb0a-4cad-b3cb-3cb14d7ad4b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button", "css:finder"],
+        ["xpath=//button[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[3]/button", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c48329ae-0e7e-47a1-ba94-406687249905",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[4]/td[2]/div/button[3]",
+      "targets": [
+        ["css=tr:nth-child(4) .param-list-editor-table-col-2-btn-reset", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[2]/div/button[3]", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/div/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59503f5b-d150-42e0-b688-c3b3cf8be515",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[4]/td[2]/div/button",
+      "targets": [
+        ["css=tr:nth-child(4) .param-list-editor-table-col-2-btn-save", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[2]/div/button", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b9fecb2-bca7-442c-952d-6989f3fac862",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//*[@id=\"id-app-pane-admin-parameters-editor\"]/fieldset/table/tbody/tr[4]/td[3]/div",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d062c31-fde7-4d73-8817-91b66a90839f",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "18a7d019-d114-40e1-bd10-f3f5a8b2de64",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display", "css:finder"],
+        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[2]/span", "xpath:position"]
+      ],
+      "value": "1440"
+    }, {
+      "id": "8c70f29f-4f73-4c98-a4de-2a858efee125",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-display",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-display", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-display", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-display", "css:finder"],
+        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-display']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[5]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/span", "xpath:position"]
+      ],
+      "value": "10080"
+    }, {
+      "id": "0b948346-afb0-412d-b518-44ca85dee90b",
+      "comment": "",
+      "command": "click",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-button",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-button", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-button", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-button", "css:finder"],
+        ["xpath=//button[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-button']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[5]/td[3]/button", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "56bf4566-744f-4aa3-a956-869dfcdaec4f",
+      "comment": "",
+      "command": "type",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-input",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-input", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-input", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-input", "css:finder"],
+        ["xpath=//input[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-input']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[5]/td[2]/div/input", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/div/input", "xpath:position"]
+      ],
+      "value": "10081"
+    }, {
+      "id": "38f596e6-577a-4096-ae5e-a1c94f8eff94",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[5]/td[2]/div/button",
+      "targets": [
+        ["css=tr:nth-child(5) .param-list-editor-table-col-2-btn-save", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[5]/td[2]/div/button", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f86afc93-12a9-428f-b2bd-aaa344bfde57",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//*[@id=\"id-app-pane-admin-parameters-editor\"]/fieldset/table/tbody/tr[5]/td[3]/div/span[2]/span[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2155ca6-2d16-4922-b443-36e02ae170fc",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b8efe4b-10f0-4461-833d-d0553874659e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-display",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-display", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-display", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-display", "css:finder"],
+        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-display']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[5]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/span", "xpath:position"]
+      ],
+      "value": "10081"
+    }, {
+      "id": "2b9616ef-e83d-4c5e-8557-fb58836c05ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-button",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-button", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-button", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-button", "css:finder"],
+        ["xpath=//button[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-button']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[5]/td[3]/button", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f727986f-9f46-4989-8d69-a39a7315c136",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[5]/td[2]/div/button[3]",
+      "targets": [
+        ["css=tr:nth-child(5) .param-list-editor-table-col-2-btn-reset", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[5]/td[2]/div/button[3]", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/div/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6336f4f9-c139-4272-b691-2cade1a69ed7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[5]/td[2]/div/button",
+      "targets": [
+        ["css=tr:nth-child(5) .param-list-editor-table-col-2-btn-save", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[5]/td[2]/div/button", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "921113d5-c672-4deb-9449-0a5ed7b1bec9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//*[@id=\"id-app-pane-admin-parameters-editor\"]/fieldset/table/tbody/tr[5]/td[3]/div/span[2]/span[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dde47aa7-1009-4854-8db8-bb25a0eadf5d",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d904757c-5c19-47b5-9638-82eca24be4ea",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-display",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-display", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-display", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-display", "css:finder"],
+        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobDeleteAge-display']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[5]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[2]/span", "xpath:position"]
+      ],
+      "value": "10080"
+    }, {
+      "id": "752afef9-065a-45bb-b8c5-e1186c8ae1d4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-display",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-display", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-display", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-display", "css:finder"],
+        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-display']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[6]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[2]/span", "xpath:position"]
+      ],
+      "value": "43200"
+    }, {
+      "id": "2815fa2d-6016-4ce2-b0a5-7fd25588e6c8",
+      "comment": "",
+      "command": "click",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-button",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-button", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-button", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-button", "css:finder"],
+        ["xpath=//button[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-button']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[6]/td[3]/button", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "830b8423-0265-4159-93e6-cc2f155f8bdd",
+      "comment": "",
+      "command": "type",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-input",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-input", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-input", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-input", "css:finder"],
+        ["xpath=//input[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-input']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[6]/td[2]/div/input", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[2]/div/input", "xpath:position"]
+      ],
+      "value": "43201"
+    }, {
+      "id": "b1cf6ac6-3283-4c94-892e-89a3b8a6340a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[6]/td[2]/div/button",
+      "targets": [
+        ["css=tr:nth-child(6) .param-list-editor-table-col-2-btn-save", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[6]/td[2]/div/button", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9687f4cb-9f32-47df-b8c5-158a3762379d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//*[@id=\"id-app-pane-admin-parameters-editor\"]/fieldset/table/tbody/tr[6]/td[3]/div/span[2]/span[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d81a02d2-ad55-495f-8c7f-84a24626e67c",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dd962078-9f88-40e9-ad1f-6e47049e37ab",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-display",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-display", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-display", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-display", "css:finder"],
+        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-display']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[6]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[2]/span", "xpath:position"]
+      ],
+      "value": "43201"
+    }, {
+      "id": "cea27e1d-476d-47a1-b9b8-aa5af11a46c2",
+      "comment": "",
+      "command": "click",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-button",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-button", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-button", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-button", "css:finder"],
+        ["xpath=//button[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-button']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[6]/td[3]/button", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23e0eb8b-8a70-4d80-a139-d11f9bcba548",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[6]/td[2]/div/button[3]",
+      "targets": [
+        ["css=tr:nth-child(6) .param-list-editor-table-col-2-btn-reset", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[6]/td[2]/div/button[3]", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[2]/div/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6527d868-182b-45bd-9c6c-a7662a7f48d0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[6]/td[2]/div/button",
+      "targets": [
+        ["css=tr:nth-child(6) .param-list-editor-table-col-2-btn-save", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[6]/td[2]/div/button", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "144e218f-f8f5-45ff-b797-40cf37f4ffc9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//*[@id=\"id-app-pane-admin-parameters-editor\"]/fieldset/table/tbody/tr[6]/td[3]/div/span[2]/span[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f533a22d-c908-486e-915a-58a1d90e5f9e",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "644584a7-9882-453e-8458-4080bd8d3c3f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-display",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-display", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-display", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-display", "css:finder"],
+        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobMessageDeleteAge-display']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[6]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[6]/td[2]/span", "xpath:position"]
+      ],
+      "value": "43200"
+    }, {
+      "id": "299c9819-ecb1-4581-a019-79e560035fbe",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--threadCount-display",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--threadCount-display", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--threadCount-display", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--threadCount-display", "css:finder"],
+        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--threadCount-display']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[7]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[2]/span", "xpath:position"]
+      ],
+      "value": "100"
+    }, {
+      "id": "b0f40f53-b587-4c94-abac-8df77b9ce9b8",
+      "comment": "",
+      "command": "click",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--threadCount-button",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--threadCount-button", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--threadCount-button", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--threadCount-button", "css:finder"],
+        ["xpath=//button[@id='param-list-editor--id-app-pane-admin-parameters-editor--threadCount-button']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[7]/td[3]/button", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98938f97-b9b4-4526-bc88-3d0572ee91d2",
+      "comment": "",
+      "command": "type",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--threadCount-input",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--threadCount-input", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--threadCount-input", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--threadCount-input", "css:finder"],
+        ["xpath=//input[@id='param-list-editor--id-app-pane-admin-parameters-editor--threadCount-input']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[7]/td[2]/div/input", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[2]/div/input", "xpath:position"]
+      ],
+      "value": "99"
+    }, {
+      "id": "5c190070-3da4-4f11-80eb-3c764f08c6e8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[7]/td[2]/div/button",
+      "targets": [
+        ["css=tr:nth-child(7) .param-list-editor-table-col-2-btn-save", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[7]/td[2]/div/button", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4db2e5d-7c59-448e-b030-6c7e99e7219e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//*[@id=\"id-app-pane-admin-parameters-editor\"]/fieldset/table/tbody/tr[7]/td[3]/div/span[2]/span[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b8c91cc-dd14-4541-b73f-3539a5c541f3",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0855f031-ce2a-4baa-94e0-9643ed00c4c5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--threadCount-display",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--threadCount-display", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--threadCount-display", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--threadCount-display", "css:finder"],
+        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--threadCount-display']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[7]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[2]/span", "xpath:position"]
+      ],
+      "value": "99"
+    }, {
+      "id": "4f25de7e-8f32-4677-95ee-ff4df9b2c2e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--threadCount-button",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--threadCount-button", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--threadCount-button", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--threadCount-button", "css:finder"],
+        ["xpath=//button[@id='param-list-editor--id-app-pane-admin-parameters-editor--threadCount-button']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[7]/td[3]/button", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a2a27a2-c68e-4a63-aeee-8b39c3397c76",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[7]/td[2]/div/button[3]",
+      "targets": [
+        ["css=tr:nth-child(7) .param-list-editor-table-col-2-btn-reset", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[7]/td[2]/div/button[3]", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[2]/div/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6763ae9-f518-4e3d-95e6-ca6df9f35615",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[7]/td[2]/div/button",
+      "targets": [
+        ["css=tr:nth-child(7) .param-list-editor-table-col-2-btn-save", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[7]/td[2]/div/button", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8cf4873-0c0d-4690-bf16-215679e76b96",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//*[@id=\"id-app-pane-admin-parameters-editor\"]/fieldset/table/tbody/tr[7]/td[3]/div/span[2]/span[2]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fdb3d4d9-e2ec-454e-8555-9dd3db0a5080",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dc46f3fa-1f11-4938-ad65-03d70be9f545",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--threadCount-display",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--threadCount-display", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--threadCount-display", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--threadCount-display", "css:finder"],
+        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--threadCount-display']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[7]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[7]/td[2]/span", "xpath:position"]
+      ],
+      "value": "100"
+    }]
+  }, {
+    "id": "c11e947d-b184-4c94-8a2b-ce80eb8fb257",
+    "name": "Authentication",
+    "commands": [{
+      "id": "609448b3-c9ef-457e-8bba-42c32d1bf9c8",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e083152-a532-46c0-bce5-542dbc89c5a8",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2280c109-c079-427b-aa7d-8336bc42bb6d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div/div/div[2]/div/img",
+      "targets": [
+        ["css=.lmenu-page-1001:nth-child(2) img", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div/div/div[2]/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f098da3d-98b4-42e5-9f2a-702d0b9aec1e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div[2]/div/div",
+      "targets": [
+        ["css=.generic-admin-menu-auth:nth-child(1)", "css:finder"],
+        ["xpath=(//div[@id=''])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a3095b5-e9a1-41e1-afa1-5d656eae3858",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//td",
+      "targets": [
+        ["css=td.lib-comp-wizard-body-row-singlecolumn", "css"],
+        ["css=.lib-comp-wizard-body-row-singlecolumn", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-auth']/fieldset/table/tbody/tr/td", "xpath:idRelative"],
+        ["xpath=//td", "xpath:position"]
+      ],
+      "value": "Authentication Settings"
+    }, {
+      "id": "401ef6fa-4445-4b74-a036-b5472e9f911e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[2]/td",
+      "targets": [
+        ["css=td.lib-comp-wizard-body-row-column1.lib-comp-wizard-label-cell", "css"],
+        ["css=tr:nth-child(2) > .lib-comp-wizard-body-row-column1", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-auth']/fieldset/table/tbody/tr[2]/td", "xpath:idRelative"],
+        ["xpath=//tr[2]/td", "xpath:position"]
+      ],
+      "value": "Method:"
+    }, {
+      "id": "e32cdbf6-c866-4527-8ece-ca32ff489ff8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[8]/td",
+      "targets": [
+        ["css=tr:nth-child(8) > .lib-comp-wizard-body-row-column1", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-auth']/fieldset/table/tbody/tr[8]/td", "xpath:idRelative"],
+        ["xpath=//tr[8]/td", "xpath:position"]
+      ],
+      "value": "LDAP URL:"
+    }, {
+      "id": "18bc5a27-b465-4727-b73f-dc97ca1ba9c5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[9]/td",
+      "targets": [
+        ["css=tr:nth-child(9) > .lib-comp-wizard-body-row-column1", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-auth']/fieldset/table/tbody/tr[9]/td", "xpath:idRelative"],
+        ["xpath=//tr[9]/td", "xpath:position"]
+      ],
+      "value": "Encryption Type:"
+    }, {
+      "id": "a58a65d4-dcf2-461e-b2eb-a63cc52fb0f4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[10]/td",
+      "targets": [
+        ["css=tr:nth-child(10) > .lib-comp-wizard-body-row-column1", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-auth']/fieldset/table/tbody/tr[10]/td", "xpath:idRelative"],
+        ["xpath=//tr[10]/td", "xpath:position"]
+      ],
+      "value": "Min version:"
+    }, {
+      "id": "ef99a020-585c-42ea-b09c-a97b59b1d7c8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[11]/td",
+      "targets": [
+        ["css=tr:nth-child(11) > .lib-comp-wizard-body-row-column1", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-auth']/fieldset/table/tbody/tr[11]/td", "xpath:idRelative"],
+        ["xpath=//tr[11]/td", "xpath:position"]
+      ],
+      "value": "Check Server Cert:"
+    }, {
+      "id": "358ca354-fb71-415d-8005-f0dd7951609e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[12]/td",
+      "targets": [
+        ["css=tr:nth-child(12) > .lib-comp-wizard-body-row-column1", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-auth']/fieldset/table/tbody/tr[12]/td", "xpath:idRelative"],
+        ["xpath=//tr[12]/td", "xpath:position"]
+      ],
+      "value": "Check CRL:"
+    }, {
+      "id": "4db5242e-e311-4031-9228-6cba5819e235",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[13]/td",
+      "targets": [
+        ["css=tr:nth-child(13) > .lib-comp-wizard-body-row-column1", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-auth']/fieldset/table/tbody/tr[13]/td", "xpath:idRelative"],
+        ["xpath=//tr[13]/td", "xpath:position"]
+      ],
+      "value": "CaCert Dir:"
+    }, {
+      "id": "604c37a5-c9dd-4e9e-95e0-6d2d706c9f9a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[14]/td",
+      "targets": [
+        ["css=tr:nth-child(14) > .lib-comp-wizard-body-row-column1", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-auth']/fieldset/table/tbody/tr[14]/td", "xpath:idRelative"],
+        ["xpath=//tr[14]/td", "xpath:position"]
+      ],
+      "value": "CaCert File:"
+    }, {
+      "id": "a2f32c39-4c7e-4aff-89be-55e4aa81c0c5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[15]/td",
+      "targets": [
+        ["css=tr:nth-child(15) > .lib-comp-wizard-body-row-column1", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-auth']/fieldset/table/tbody/tr[15]/td", "xpath:idRelative"],
+        ["xpath=//tr[15]/td", "xpath:position"]
+      ],
+      "value": "ClientCert public:"
+    }, {
+      "id": "7a7cc8ee-34ff-4372-b914-31848593f938",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[16]/td",
+      "targets": [
+        ["css=tr:nth-child(16) > .lib-comp-wizard-body-row-column1", "css:finder"],
+        ["xpath=//div[@id='id-app-pane-admin-auth']/fieldset/table/tbody/tr[16]/td", "xpath:idRelative"],
+        ["xpath=//tr[16]/td", "xpath:position"]
+      ],
+      "value": "ClientCert private:\t"
+    }]
+  }, {
+    "id": "e44988b7-2898-4e46-8fae-bfa4b55d9a7c",
+    "name": "Users",
+    "commands": [{
+      "id": "12af3795-b572-413a-a0ae-a36d60877810",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e82a2bca-7fbf-41de-8b61-22c9a99dd05f",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "faad92e7-60bf-4b68-ae73-d0041087d33b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div[2]/div/div/div[2]/div[2]",
+      "targets": [
+        ["css=.lmenu-page-1001:nth-child(2) > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3afe0ff0-3e0a-46bf-9716-431ab6770f45",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div/div[2]/div/div/span",
+      "targets": [
+        ["css=div.lmenu-marker > span", "css"],
+        ["css=.lmenu-page-1012 .lmenu-marker > span", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[2]/div/div[2]/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8e29a61-b18a-47a8-ae76-90467086f271",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[3]",
+      "targets": [
+        ["css=button.extended-table-table-create-btn.et-button", "css"],
+        ["css=.extended-table-table-create-btn", "css:finder"],
+        ["xpath=//div[@id='id-app-admin-users-et']/div/div/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c099f1f-cf4c-474c-83d7-c8b22a94c08f",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[2]/input",
+      "targets": [
+        ["id=id-la-admin-user-username---id-app-admin-users-et---__new-1", "id"],
+        ["css=#id-la-admin-user-username---id-app-admin-users-et---__new-1", "css"],
+        ["css=#id-la-admin-user-username---id-app-admin-users-et---__new-1", "css:finder"],
+        ["xpath=//input[@id='id-la-admin-user-username---id-app-admin-users-et---__new-1']", "xpath:attributes"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[4]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "TestUser"
+    }, {
+      "id": "1222ace5-5dc6-4ae2-aad1-bc0fcf2e3feb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div[2]/input",
+      "targets": [
+        ["id=id-la-admin-user-password---id-app-admin-users-et---__new-1", "id"],
+        ["css=#id-la-admin-user-password---id-app-admin-users-et---__new-1", "css"],
+        ["css=#id-la-admin-user-password---id-app-admin-users-et---__new-1", "css:finder"],
+        ["xpath=//input[@id='id-la-admin-user-password---id-app-admin-users-et---__new-1']", "xpath:attributes"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[4]/div/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc559928-de2e-41de-89f6-aad975207fa8",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[3]/div[2]/input",
+      "targets": [
+        ["id=id-la-admin-user-password---id-app-admin-users-et---__new-1", "id"],
+        ["css=#id-la-admin-user-password---id-app-admin-users-et---__new-1", "css"],
+        ["css=#id-la-admin-user-password---id-app-admin-users-et---__new-1", "css:finder"],
+        ["xpath=//input[@id='id-la-admin-user-password---id-app-admin-users-et---__new-1']", "xpath:attributes"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[4]/div/div/div[3]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/input", "xpath:position"]
+      ],
+      "value": "PW"
+    }, {
+      "id": "bafd204e-5bec-4848-a40b-408bee0595e1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[4]/div/div[2]/input",
+      "targets": [
+        ["id=id-la-admin-user-confirm-password---id-app-admin-users-et---__new-1", "id"],
+        ["css=#id-la-admin-user-confirm-password---id-app-admin-users-et---__new-1", "css"],
+        ["css=#id-la-admin-user-confirm-password---id-app-admin-users-et---__new-1", "css:finder"],
+        ["xpath=//input[@id='id-la-admin-user-confirm-password---id-app-admin-users-et---__new-1']", "xpath:attributes"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[4]/div/div/div[4]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66770f1a-4020-4f5c-8afe-b235483a3c54",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[4]/div/div[2]/input",
+      "targets": [
+        ["id=id-la-admin-user-confirm-password---id-app-admin-users-et---__new-1", "id"],
+        ["css=#id-la-admin-user-confirm-password---id-app-admin-users-et---__new-1", "css"],
+        ["css=#id-la-admin-user-confirm-password---id-app-admin-users-et---__new-1", "css:finder"],
+        ["xpath=//input[@id='id-la-admin-user-confirm-password---id-app-admin-users-et---__new-1']", "xpath:attributes"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[4]/div/div/div[4]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "PW"
+    }, {
+      "id": "49de1f6f-ee7a-4b76-9315-ccb231e35799",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label",
+      "targets": [
+        ["css=label", "css"],
+        ["css=span:nth-child(3) > label", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[4]/div/div/div[5]/div[2]/div/span/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3654ce57-dd12-47e6-b73b-79c8efb6bb3b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/button[3]",
+      "targets": [
+        ["css=button.extended-table-form-save-btn.l-button", "css"],
+        ["css=.extended-table-form-save-btn", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[4]/div/div[3]/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "895dcd34-0e90-4820-aff2-1619bfc13fe9",
+      "comment": "",
+      "command": "click",
+      "target": "id=popup_ok",
+      "targets": [
+        ["id=popup_ok", "id"],
+        ["css=#popup_ok", "css"],
+        ["css=#popup_ok", "css:finder"],
+        ["xpath=//input[@id='popup_ok']", "xpath:attributes"],
+        ["xpath=//div[@id='popup_panel']/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e982490-f0d5-488f-8687-ebc6b1bd2b0e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//td[2]/div",
+      "targets": [
+        ["css=#id-app-admin-users-et---row-1 > .et-table-listmode-field-title > div", "css:finder"],
+        ["xpath=//tr[@id='id-app-admin-users-et---row-1']/td[2]/div", "xpath:idRelative"],
+        ["xpath=//td[2]/div", "xpath:position"]
+      ],
+      "value": "system"
+    }, {
+      "id": "441592be-da45-43a7-b7db-499ca102d4d0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//td[4]/div",
+      "targets": [
+        ["css=#id-app-admin-users-et---row-1 > .et-table-listmode-field-other > div", "css:finder"],
+        ["xpath=//tr[@id='id-app-admin-users-et---row-1']/td[4]/div", "xpath:idRelative"],
+        ["xpath=//td[4]/div", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "5b443860-53f0-4813-8d2b-a7e629a85d54",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[2]/td[2]/div",
+      "targets": [
+        ["css=#id-app-admin-users-et---row-8 > .et-table-listmode-field-title > div", "css:finder"],
+        ["xpath=//tr[@id='id-app-admin-users-et---row-8']/td[2]/div", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/div", "xpath:position"]
+      ],
+      "value": "TestUser"
+    }, {
+      "id": "ccc5d298-7751-4a09-b3af-0f4d5444c4ce",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[2]/td[4]/div",
+      "targets": [
+        ["css=#id-app-admin-users-et---row-8 > .et-table-listmode-field-other > div", "css:finder"],
+        ["xpath=//tr[@id='id-app-admin-users-et---row-8']/td[4]/div", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[4]/div", "xpath:position"]
+      ],
+      "value": "reader"
+    }, {
+      "id": "a242f90f-1ce5-4a05-82f8-67d2bddf1864",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//tr[2]/td[2]",
+      "targets": [
+        ["css=#id-app-admin-users-et---row-8 > .et-table-listmode-field-title", "css:finder"],
+        ["xpath=//tr[@id='id-app-admin-users-et---row-8']/td[2]", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3284305-ec0e-4a7a-a62e-33f028ba59fe",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[2]/span",
+      "targets": [
+        ["css=button.extended-table-table-delete-btn.et-button > span.et-toolbar-icon", "css"],
+        ["css=.extended-table-table-delete-btn > .et-toolbar-icon", "css:finder"],
+        ["xpath=//div[@id='id-app-admin-users-et']/div/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3218fc72-fdd7-4e2b-bb04-92aed1dd5039",
+      "comment": "",
+      "command": "click",
+      "target": "id=popup_ok",
+      "targets": [
+        ["id=popup_ok", "id"],
+        ["css=#popup_ok", "css"],
+        ["css=#popup_ok", "css:finder"],
+        ["xpath=//input[@id='popup_ok']", "xpath:attributes"],
+        ["xpath=//div[@id='popup_panel']/input", "xpath:idRelative"],
+        ["xpath=//div[10]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "294a003e-0fc3-4042-99ff-adb6ef1cc5a1",
+    "name": "Roles",
+    "commands": [{
+      "id": "c9f682a9-95ca-4e10-8244-9b559e937de5",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fb599688-4930-4fca-a9e4-67809fdadabf",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d8ff2d9-3f55-4fad-95ab-53bdcd8e6076",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div[2]/div/div/div[2]/div[2]",
+      "targets": [
+        ["css=.lmenu-page-1001:nth-child(2) > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6ea4c2b-f07a-4a16-9529-8e0ec07ce0b7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div[2]/div/div[3]/div[2]",
+      "targets": [
+        ["css=.lmenu-page-1013:nth-child(3) > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[2]/div/div[3]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[3]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fff63e0-398e-4359-b482-05280ac581f0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//td[2]/div",
+      "targets": [
+        ["css=#admin-roles-et---row-3 > .et-table-listmode-field-title > div", "css:finder"],
+        ["xpath=//tr[@id='admin-roles-et---row-3']/td[2]/div", "xpath:idRelative"],
+        ["xpath=//td[2]/div", "xpath:position"]
+      ],
+      "value": "admin"
+    }, {
+      "id": "c3644343-d727-4f51-a0ce-260083b07205",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//td[4]/div",
+      "targets": [
+        ["css=#admin-roles-et---row-3 > .functionsEnabled > div", "css:finder"],
+        ["xpath=//tr[@id='admin-roles-et---row-3']/td[4]/div", "xpath:idRelative"],
+        ["xpath=//td[4]/div", "xpath:position"]
+      ],
+      "value": "all-all"
+    }, {
+      "id": "10c1c1ee-59e0-4350-9a3f-543872391ad1",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[2]/td[2]/div",
+      "targets": [
+        ["css=#admin-roles-et---row-2 > .et-table-listmode-field-title > div", "css:finder"],
+        ["xpath=//tr[@id='admin-roles-et---row-2']/td[2]/div", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[2]/div", "xpath:position"]
+      ],
+      "value": "operator"
+    }, {
+      "id": "2f43d42d-b85a-45b0-8b5c-5056ff119006",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[2]/td[4]/div",
+      "targets": [
+        ["css=#admin-roles-et---row-2 > .functionsEnabled > div", "css:finder"],
+        ["xpath=//tr[@id='admin-roles-et---row-2']/td[4]/div", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[4]/div", "xpath:position"]
+      ],
+      "value": "admin-select;admin-update;configs-select;configs-update;jobs-select;jobs-update;messages-select;roles-select;roles-update;systems-select;systems-update;users-select;users-update"
+    }, {
+      "id": "c7984722-e88c-41b5-9d6b-e6fa1a748d0b",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[3]/td[2]/div",
+      "targets": [
+        ["css=#admin-roles-et---row-1 > .et-table-listmode-field-title > div", "css:finder"],
+        ["xpath=//tr[@id='admin-roles-et---row-1']/td[2]/div", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/div", "xpath:position"]
+      ],
+      "value": "reader"
+    }, {
+      "id": "1179c79d-63fe-429c-9923-a5baa24fc825",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[3]/td[4]/div",
+      "targets": [
+        ["css=#admin-roles-et---row-1 > .functionsEnabled > div", "css:finder"],
+        ["xpath=//tr[@id='admin-roles-et---row-1']/td[4]/div", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[4]/div", "xpath:position"]
+      ],
+      "value": "admin-select;configs-select;jobs-select;messages-select;roles-select;systems-select;users-select"
+    }, {
+      "id": "f85495fb-2075-4a8c-affb-6aab52f55dac",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[3]/span",
+      "targets": [
+        ["css=button.extended-table-table-create-btn.et-button > span.et-toolbar-icon", "css"],
+        ["css=.extended-table-table-create-btn > .et-toolbar-icon", "css:finder"],
+        ["xpath=//div[@id='admin-roles-et']/div/div/div/button[3]/span", "xpath:idRelative"],
+        ["xpath=//button[3]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cfe3558-1009-4f2a-8ef3-3a9a3ebf251b",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[2]/input",
+      "targets": [
+        ["id=id-la-admin-role-rolename---admin-roles-et---__new-1", "id"],
+        ["css=#id-la-admin-role-rolename---admin-roles-et---__new-1", "css"],
+        ["css=#id-la-admin-role-rolename---admin-roles-et---__new-1", "css:finder"],
+        ["xpath=//input[@id='id-la-admin-role-rolename---admin-roles-et---__new-1']", "xpath:attributes"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[4]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "9e6e058b-aa67-4c8b-9b7b-188b3e547e9a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//label",
+      "targets": [
+        ["css=label", "css"],
+        ["css=.id-la-admin-role-enabled-placeholder span:nth-child(1) > label", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[4]/div/div/div[4]/div[2]/div/div/span/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "330754bc-8bb2-4e9d-919a-63f04cbf312e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/button[3]",
+      "targets": [
+        ["css=button.extended-table-form-save-btn.l-button", "css"],
+        ["css=.extended-table-form-save-btn", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[4]/div/div[3]/div[2]/button[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f988301-1d66-472f-839c-9b5750d95a1c",
+      "comment": "",
+      "command": "click",
+      "target": "id=popup_ok",
+      "targets": [
+        ["id=popup_ok", "id"],
+        ["css=#popup_ok", "css"],
+        ["css=#popup_ok", "css:finder"],
+        ["xpath=//input[@id='popup_ok']", "xpath:attributes"],
+        ["xpath=//div[@id='popup_panel']/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "094c4837-3fa4-40cf-a2cb-fd30877cab2a",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10ced3b8-ccf5-4bfd-92d9-cdcc53762be4",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//td[2]/div",
+      "targets": [
+        ["css=#admin-roles-et---row-11 > .et-table-listmode-field-title > div", "css:finder"],
+        ["xpath=//tr[@id='admin-roles-et---row-11']/td[2]/div", "xpath:idRelative"],
+        ["xpath=//td[2]/div", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "93231356-71ef-4cf1-9810-950b7a8f25a3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//td[4]/div",
+      "targets": [
+        ["css=#admin-roles-et---row-10 > .functionsEnabled > div", "css:finder"],
+        ["xpath=//tr[@id='admin-roles-et---row-10']/td[4]/div", "xpath:idRelative"],
+        ["xpath=//td[4]/div", "xpath:position"]
+      ],
+      "value": "all-all;"
+    }, {
+      "id": "eafe11b4-8a28-4c6b-a93f-a150a8290372",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[2]/div",
+      "targets": [
+        ["css=#admin-roles-et---row-12 > .et-table-listmode-field-title > div", "css:finder"],
+        ["xpath=//tr[@id='admin-roles-et---row-12']/td[2]/div", "xpath:idRelative"],
+        ["xpath=//td[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea6fc219-4498-4a29-9cca-2a0c0b7dfc96",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[2]/span",
+      "targets": [
+        ["css=button.extended-table-table-delete-btn.et-button > span.et-toolbar-icon", "css"],
+        ["css=.extended-table-table-delete-btn > .et-toolbar-icon", "css:finder"],
+        ["xpath=//div[@id='admin-roles-et']/div/div/div/button[2]/span", "xpath:idRelative"],
+        ["xpath=//button[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f18b32c-f4c1-4bb6-9833-b7e6f7f7b350",
+      "comment": "",
+      "command": "click",
+      "target": "id=popup_ok",
+      "targets": [
+        ["id=popup_ok", "id"],
+        ["css=#popup_ok", "css"],
+        ["css=#popup_ok", "css:finder"],
+        ["xpath=//input[@id='popup_ok']", "xpath:attributes"],
+        ["xpath=//div[@id='popup_panel']/input", "xpath:idRelative"],
+        ["xpath=//div[9]/div/div[2]/input", "xpath:position"]
+      ],
       "value": ""
     }]
   }],
@@ -914,6 +2202,13 @@
     "parallel": false,
     "timeout": 300,
     "tests": ["64c6b2c2-f21b-4c0c-a6f5-b98cd99be52f", "84197895-52d3-4065-b111-898d33174d0a", "161724b4-e781-4de3-9813-f5e51bf9d843", "69f3cfc1-eac7-4446-95cf-14624a21ff17"]
+  }, {
+    "id": "83c45ab5-cef8-4e5c-8c12-440400c12974",
+    "name": "Authorization",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c11e947d-b184-4c94-8a2b-ce80eb8fb257", "294a003e-0fc3-4042-99ff-adb6ef1cc5a1", "e44988b7-2898-4e46-8fae-bfa4b55d9a7c"]
   }],
   "urls": ["http://qalinux11:8809/", "http://qalinux11:8809/admin/#home"],
   "plugins": []
