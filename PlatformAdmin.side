@@ -792,46 +792,61 @@
       "value": ""
     }]
   }, {
-    "id": "33d137ba-8234-4260-9b5f-06b185af49d3",
+    "id": "7384716c-6322-4bd0-a652-2ffae2252fb1",
     "name": "Parameters",
     "commands": [{
-      "id": "096ad094-31ce-4a91-8555-9f2215ffd1c4",
+      "id": "4a9fa99f-ab8a-4bbf-8561-18f6c1bfcea9",
       "comment": "",
       "command": "open",
-      "target": "http://qalinux11:8809/admin/#home",
+      "target": "",
       "targets": [],
       "value": ""
     }, {
-      "id": "132be6dc-decf-40ab-b6ef-45a5ff7bf7cb",
+      "id": "d2ccc3f1-706f-4fa9-b2a7-a9502924ec43",
       "comment": "",
       "command": "pause",
       "target": "2000",
       "targets": [],
       "value": ""
     }, {
-      "id": "c75201ec-8d9d-4d38-b2c9-b121ed7cef5c",
+      "id": "14c66d7e-157e-4d2b-8c63-9c33b74271a6",
       "comment": "",
       "command": "click",
-      "target": "xpath=//div[3]/div[2]/div/div/div/div[2]/span",
+      "target": "xpath=//div[3]/div[2]/div/div/div/div[2]/div",
       "targets": [
-        ["css=.tiles-btn-content .lmenu-page-1000", "css:finder"],
-        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/span", "xpath:idRelative"],
-        ["xpath=//div[3]/div[2]/div/div/div/div[2]/span", "xpath:position"]
+        ["css=div.libmenu-menu-btn-description", "css"],
+        ["css=.lmenu-page-1000 .libmenu-menu-btn-description", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div[2]/div", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "ede15e3f-1a5c-4ea1-b7bb-a6a57514efd1",
+      "id": "1bd450aa-429b-411f-aaa1-ec22dd8b1d7b",
       "comment": "",
       "command": "click",
-      "target": "xpath=//div[2]/div/div[7]/div[2]/span",
+      "target": "xpath=//div[2]/div/div[7]/div[2]/div",
       "targets": [
-        ["css=.tiles-btn-content .lmenu-page-1014", "css:finder"],
-        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[2]/div/div[7]/div[2]/span", "xpath:idRelative"],
-        ["xpath=//div[2]/div/div[7]/div[2]/span", "xpath:position"]
+        ["css=.lmenu-page-1014 .libmenu-menu-btn-description", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[2]/div/div[7]/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[7]/div[2]/div", "xpath:position"]
       ],
       "value": ""
     }, {
-      "id": "4e6c5ee7-0caa-43ee-a95d-aaee1ff74844",
+      "id": "ea1e57fb-c033-4cfc-8a0c-a01007340677",
+      "comment": "",
+      "command": "verifyText",
+      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-display",
+      "targets": [
+        ["id=param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-display", "id"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-display", "css"],
+        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-display", "css:finder"],
+        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-display']", "xpath:attributes"],
+        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[3]/td[2]/span", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[2]/span", "xpath:position"]
+      ],
+      "value": "60"
+    }, {
+      "id": "6e739bd2-fb5c-4fa5-a86d-1212e5318e3c",
       "comment": "",
       "command": "click",
       "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-button",
@@ -845,7 +860,7 @@
       ],
       "value": ""
     }, {
-      "id": "f49e6feb-19ce-42b4-a4df-18c6807d835c",
+      "id": "01d4fff2-16b4-4b5d-befd-ed84889f1e87",
       "comment": "",
       "command": "type",
       "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-input",
@@ -859,7 +874,7 @@
       ],
       "value": "61"
     }, {
-      "id": "b4ffdeed-0023-40ee-93f7-c908b0f70106",
+      "id": "f4b21185-93bb-45d7-8ee8-87d13bfe6ba0",
       "comment": "",
       "command": "click",
       "target": "xpath=//tr[3]/td[2]/div/button",
@@ -870,7 +885,7 @@
       ],
       "value": ""
     }, {
-      "id": "eb18413b-dec3-461a-be1f-e6b49111582d",
+      "id": "665849dd-4f25-4569-9ada-0cacbe8eb6a9",
       "comment": "",
       "command": "verifyText",
       "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-display",
@@ -884,151 +899,12 @@
       ],
       "value": "61"
     }, {
-      "id": "7bfbb5bb-a88f-4b2f-ba27-a86db7514124",
+      "id": "47df601f-24ae-4687-8456-016e6b8f55d4",
       "comment": "",
-      "command": "click",
-      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-button",
-      "targets": [
-        ["id=param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-button", "id"],
-        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-button", "css"],
-        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-button", "css:finder"],
-        ["xpath=//button[@id='param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-button']", "xpath:attributes"],
-        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[3]/td[3]/button", "xpath:idRelative"],
-        ["xpath=//tr[3]/td[3]/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "d4d00782-40f6-417c-8362-04133f39b567",
-      "comment": "",
-      "command": "click",
-      "target": "xpath=//tr[3]/td[2]/div/button[3]",
-      "targets": [
-        ["css=tr:nth-child(3) .param-list-editor-table-col-2-btn-reset", "css:finder"],
-        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[3]/td[2]/div/button[3]", "xpath:idRelative"],
-        ["xpath=//tr[3]/td[2]/div/button[3]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "56f1dbe8-3689-4f29-84b5-a2d1e8b92b6d",
-      "comment": "",
-      "command": "click",
-      "target": "xpath=//tr[3]/td[2]/div/button",
-      "targets": [
-        ["css=tr:nth-child(3) .param-list-editor-table-col-2-btn-save", "css:finder"],
-        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[3]/td[2]/div/button", "xpath:idRelative"],
-        ["xpath=//tr[3]/td[2]/div/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "ab96a877-e44f-43e7-bb60-8d8b12048dcd",
-      "comment": "",
-      "command": "verifyText",
-      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--eventExecutionTimeout-display",
+      "command": "verifyElementPresent",
+      "target": "//*[@id=\"id-app-pane-admin-parameters-editor\"]/fieldset/table/tbody/tr[3]/td[3]/div/span[2]/span[2]",
       "targets": [],
-      "value": "60"
-    }, {
-      "id": "3dcd8d19-8f0d-4e79-85e0-7e7d59011afb",
-      "comment": "",
-      "command": "click",
-      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button",
-      "targets": [
-        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button", "id"],
-        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button", "css"],
-        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button", "css:finder"],
-        ["xpath=//button[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button']", "xpath:attributes"],
-        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[3]/button", "xpath:idRelative"],
-        ["xpath=//tr[4]/td[3]/button", "xpath:position"]
-      ],
       "value": ""
-    }, {
-      "id": "0fd46d24-dcb4-4360-949e-1975faba2a6e",
-      "comment": "",
-      "command": "type",
-      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-input",
-      "targets": [
-        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-input", "id"],
-        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-input", "css"],
-        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-input", "css:finder"],
-        ["xpath=//input[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-input']", "xpath:attributes"],
-        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[2]/div/input", "xpath:idRelative"],
-        ["xpath=//tr[4]/td[2]/div/input", "xpath:position"]
-      ],
-      "value": "1441"
-    }, {
-      "id": "7b707d88-458a-40a9-853f-f8ec1dd1d6f8",
-      "comment": "",
-      "command": "click",
-      "target": "xpath=//tr[4]/td[2]/div/button",
-      "targets": [
-        ["css=tr:nth-child(4) .param-list-editor-table-col-2-btn-save", "css:finder"],
-        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[2]/div/button", "xpath:idRelative"],
-        ["xpath=//tr[4]/td[2]/div/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "d76bae76-eaec-42e9-a999-3b8c2478145b",
-      "comment": "",
-      "command": "verifyText",
-      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display",
-      "targets": [
-        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display", "id"],
-        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display", "css"],
-        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display", "css:finder"],
-        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display']", "xpath:attributes"],
-        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[2]/span", "xpath:idRelative"],
-        ["xpath=//tr[4]/td[2]/span", "xpath:position"]
-      ],
-      "value": "1441"
-    }, {
-      "id": "b4db9a29-f193-463c-b45d-f7dd50d6debc",
-      "comment": "",
-      "command": "click",
-      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button",
-      "targets": [
-        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button", "id"],
-        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button", "css"],
-        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button", "css:finder"],
-        ["xpath=//button[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-button']", "xpath:attributes"],
-        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[3]/button", "xpath:idRelative"],
-        ["xpath=//tr[4]/td[3]/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "3f307871-a86d-43e5-a0d1-5424960be050",
-      "comment": "",
-      "command": "click",
-      "target": "xpath=//tr[4]/td[2]/div/button[3]",
-      "targets": [
-        ["css=tr:nth-child(4) .param-list-editor-table-col-2-btn-reset", "css:finder"],
-        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[2]/div/button[3]", "xpath:idRelative"],
-        ["xpath=//tr[4]/td[2]/div/button[3]", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "72c3f1cf-68d4-4efa-97a0-c46d7d143df1",
-      "comment": "",
-      "command": "click",
-      "target": "xpath=//tr[4]/td[2]/div/button",
-      "targets": [
-        ["css=tr:nth-child(4) .param-list-editor-table-col-2-btn-save", "css:finder"],
-        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[2]/div/button", "xpath:idRelative"],
-        ["xpath=//tr[4]/td[2]/div/button", "xpath:position"]
-      ],
-      "value": ""
-    }, {
-      "id": "4be15305-df15-4055-aa1e-c668d5698cad",
-      "comment": "",
-      "command": "verifyText",
-      "target": "id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display",
-      "targets": [
-        ["id=param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display", "id"],
-        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display", "css"],
-        ["css=#param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display", "css:finder"],
-        ["xpath=//span[@id='param-list-editor--id-app-pane-admin-parameters-editor--checkJobZipAge-display']", "xpath:attributes"],
-        ["xpath=//div[@id='id-app-pane-admin-parameters-editor']/fieldset/table/tbody/tr[4]/td[2]/span", "xpath:idRelative"],
-        ["xpath=//tr[4]/td[2]/span", "xpath:position"]
-      ],
-      "value": "1440"
     }]
   }],
   "suites": [{
@@ -1037,7 +913,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["64c6b2c2-f21b-4c0c-a6f5-b98cd99be52f", "84197895-52d3-4065-b111-898d33174d0a", "161724b4-e781-4de3-9813-f5e51bf9d843", "33d137ba-8234-4260-9b5f-06b185af49d3", "69f3cfc1-eac7-4446-95cf-14624a21ff17"]
+    "tests": ["64c6b2c2-f21b-4c0c-a6f5-b98cd99be52f", "84197895-52d3-4065-b111-898d33174d0a", "161724b4-e781-4de3-9813-f5e51bf9d843", "69f3cfc1-eac7-4446-95cf-14624a21ff17"]
   }],
   "urls": ["http://qalinux11:8809/", "http://qalinux11:8809/admin/#home"],
   "plugins": []
