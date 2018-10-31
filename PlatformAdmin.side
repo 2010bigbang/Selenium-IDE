@@ -2508,6 +2508,13 @@
       ],
       "value": "main"
     }, {
+      "id": "17e661c1-5a0e-482d-8837-62db0d2ea27e",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "354ecfcb-db75-412f-ac1f-8832d527e917",
       "comment": "",
       "command": "verifyText",
@@ -3640,7 +3647,7 @@
       "id": "8756c487-7a5a-444f-9930-75476fe0f9f4",
       "comment": "",
       "command": "pause",
-      "target": "2000",
+      "target": "5000",
       "targets": [],
       "value": ""
     }, {
@@ -3662,42 +3669,23 @@
       "id": "67ca2fe1-97dd-45e5-afc4-5d10ab45935e",
       "comment": "",
       "command": "pause",
-      "target": "1000",
+      "target": "3000",
       "targets": [],
       "value": ""
     }, {
-      "id": "edbac559-a50e-4ef0-ac23-5bf54cd0fa10",
+      "id": "fca1d1af-95f6-4f1f-96e8-2ee8b0e93c2b",
       "comment": "",
-      "command": "selectWindow",
-      "target": "win_ser_1",
-      "targets": [],
-      "value": ""
-    }, {
-      "id": "185c32dd-c0d5-4fbb-9d4d-87a05bde2b21",
-      "comment": "",
-      "command": "storeTitle",
-      "target": "",
-      "targets": [],
-      "value": "web"
-    }, {
-      "id": "4c6e374d-b50f-4d4e-8d9a-6cac24f34e24",
-      "comment": "",
-      "command": "click",
-      "target": "xpath=//div[3]/div/div/a/img",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@href='http://www.libelle.com']",
       "targets": [
-        ["css=img.fusion-standard-logo", "css"],
-        ["css=.fusion-standard-logo", "css:finder"],
-        ["xpath=//img[@alt='Libelle AG Logo']", "xpath:img"],
-        ["xpath=//div[@id='wrapper']/header/div/div[3]/div/div/a/img", "xpath:idRelative"],
-        ["xpath=//div[3]/div/div/a/img", "xpath:position"]
+        ["linkText=Libelle AG", "linkText"],
+        ["css=span.ground-main-footer-company > a", "css"],
+        ["css=.ground-main-footer-company > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Libelle AG')]", "xpath:link"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[3]/span/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://www.libelle.com']", "xpath:href"],
+        ["xpath=//span/a", "xpath:position"]
       ],
-      "value": ""
-    }, {
-      "id": "847923e6-ee5c-4587-83ea-7bfb7591e916",
-      "comment": "",
-      "command": "selectWindow",
-      "target": "win_ser_local",
-      "targets": [],
       "value": ""
     }]
   }],
