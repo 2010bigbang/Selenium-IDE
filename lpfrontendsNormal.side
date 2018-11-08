@@ -1,0 +1,273 @@
+{
+  "id": "68ef32cf-3acf-404f-a753-875869af9987",
+  "version": "1.1",
+  "name": "lpfrontendsNormal",
+  "url": "http://qalinux11:8809",
+  "tests": [{
+    "id": "c585e570-81ec-46db-9597-6ad8a638b35f",
+    "name": "HowToPlugin",
+    "commands": [{
+      "id": "9cfd528c-44f5-48a7-addb-664588d2a897",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b934778b-494f-4564-a786-e628e4fa908d",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80b5a2a5-d60f-4c5a-81be-b17e350a051c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div[2]/div/div/div/div[2]",
+      "targets": [
+        ["css=.lmenu-page-1000:nth-child(1) > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5379e15a-07f9-4e29-90ae-c7c217cbbf5c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div[2]/div/div/div/img",
+      "targets": [
+        ["css=.lmenu-page-1001:nth-child(1) img", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[2]/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de166f6b-1a9a-4d9f-933b-c7be86551108",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//h1",
+      "targets": [
+        ["css=h1", "css"],
+        ["css=div:nth-child(1) > h1", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[3]/div[2]/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"]
+      ],
+      "value": "1.         Einleitung"
+    }, {
+      "id": "5f0470df-6979-4cc9-a179-149e45a52d01",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[2]/h1",
+      "targets": [
+        ["css=div:nth-child(19) > h1", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[3]/div[2]/div[2]/h1", "xpath:idRelative"],
+        ["xpath=//div[2]/h1", "xpath:position"]
+      ],
+      "value": "2.         Phase: Spezifikation"
+    }, {
+      "id": "7f9f90af-1e89-4ea1-adea-d68ee1a71ae5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[3]/h1",
+      "targets": [
+        ["css=div:nth-child(84) > h1", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[3]/div[2]/div[3]/h1", "xpath:idRelative"],
+        ["xpath=//div[3]/h1", "xpath:position"]
+      ],
+      "value": "3.         Phase: Implementierung"
+    }, {
+      "id": "4a29bb45-fbf5-4583-bdd2-4a9f4cc7f998",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[4]/h1",
+      "targets": [
+        ["css=div:nth-child(136) > h1", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[3]/div[2]/div[4]/h1", "xpath:idRelative"],
+        ["xpath=//div[4]/h1", "xpath:position"]
+      ],
+      "value": "4.         Phase: Documentation"
+    }, {
+      "id": "3ee1589e-3b14-4aff-9fd7-422a9dd4ddb0",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[5]/h1",
+      "targets": [
+        ["css=div:nth-child(146) > h1", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[3]/div[2]/div[5]/h1", "xpath:idRelative"],
+        ["xpath=//div[5]/h1", "xpath:position"]
+      ],
+      "value": "5.         Phase: Tests"
+    }, {
+      "id": "c4b73ed6-770e-4160-ab82-b6289f5d9581",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//div[6]/h1",
+      "targets": [
+        ["css=div:nth-child(160) > h1", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[3]/div[2]/div[6]/h1", "xpath:idRelative"],
+        ["xpath=//div[6]/h1", "xpath:position"]
+      ],
+      "value": "6.         Phase: Delivery"
+    }]
+  }, {
+    "id": "70dd083d-a081-4c1c-9ebf-664435b64b74",
+    "name": "Info",
+    "commands": [{
+      "id": "e2d64147-a680-49bb-b14b-92df425d44aa",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e681175c-6db2-4ee5-bc34-536352db492c",
+      "comment": "",
+      "command": "pause",
+      "target": "3000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3519a004-6b77-4a11-82c3-78aec3593a2f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div[2]/div/div/div[2]",
+      "targets": [
+        ["css=.lmenu-page-1003:nth-child(2)", "css:finder"],
+        ["xpath=(//div[@id=''])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "784ff8d7-24f6-48ce-ae2a-f940fe567746",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/div[2]/div[2]/div/div",
+      "targets": [
+        ["css=.libmenu-generated-tiles > .lmenu-page-1004", "css:finder"],
+        ["xpath=(//div[@id=''])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35965953-fd62-432f-97e4-b51db964cc83",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//td/span",
+      "targets": [
+        ["css=span.platform-frontend-demo-info-label", "css"],
+        ["css=tr:nth-child(1) .platform-frontend-demo-info-label", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[3]/table/tbody/tr/td/span", "xpath:idRelative"],
+        ["xpath=//td/span", "xpath:position"]
+      ],
+      "value": "Service endpoint:"
+    }, {
+      "id": "950a2134-dfe4-4fda-a392-f6255e35f3d8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[3]/td",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[3]/table/tbody/tr[3]/td", "xpath:idRelative"],
+        ["xpath=//tr[3]/td", "xpath:position"]
+      ],
+      "value": "Host:\t"
+    }, {
+      "id": "d056ecf9-05b9-493c-a5aa-2e1a9e01afec",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[4]/td",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[3]/table/tbody/tr[4]/td", "xpath:idRelative"],
+        ["xpath=//tr[4]/td", "xpath:position"]
+      ],
+      "value": "Port:"
+    }, {
+      "id": "abc6f64b-89a4-49fd-aa0e-64e9062ad330",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[5]/td",
+      "targets": [
+        ["css=tr:nth-child(5) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[3]/table/tbody/tr[5]/td", "xpath:idRelative"],
+        ["xpath=//tr[5]/td", "xpath:position"]
+      ],
+      "value": "Product:"
+    }, {
+      "id": "dd39ae1d-3049-4480-95f2-d4d4eea6ce8d",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[6]/td",
+      "targets": [
+        ["css=tr:nth-child(6) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[3]/table/tbody/tr[6]/td", "xpath:idRelative"],
+        ["xpath=//tr[6]/td", "xpath:position"]
+      ],
+      "value": "Version:\t"
+    }, {
+      "id": "924cf2f9-0f8a-4bba-a841-3ba868265b06",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[7]/td",
+      "targets": [
+        ["css=tr:nth-child(7) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[3]/table/tbody/tr[7]/td", "xpath:idRelative"],
+        ["xpath=//tr[7]/td", "xpath:position"]
+      ],
+      "value": "Description:"
+    }, {
+      "id": "2e8ba07f-ff19-4bdb-a67c-6346d5a94f6f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[8]/td",
+      "targets": [
+        ["css=tr:nth-child(8) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[3]/table/tbody/tr[8]/td", "xpath:idRelative"],
+        ["xpath=//tr[8]/td", "xpath:position"]
+      ],
+      "value": "Session timeout:"
+    }, {
+      "id": "212173d2-3314-461b-8e13-ef7801e569bd",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[9]/td/span",
+      "targets": [
+        ["css=tr:nth-child(9) .platform-frontend-demo-info-label", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[3]/table/tbody/tr[9]/td/span", "xpath:idRelative"],
+        ["xpath=//tr[9]/td/span", "xpath:position"]
+      ],
+      "value": "Authentication method:"
+    }, {
+      "id": "28df230b-a196-42a7-9edb-d0fc1a6a3150",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[10]/td",
+      "targets": [
+        ["css=tr:nth-child(10) > td:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div[3]/table/tbody/tr[10]/td", "xpath:idRelative"],
+        ["xpath=//tr[10]/td", "xpath:position"]
+      ],
+      "value": "LDAP settings:\t"
+    }]
+  }],
+  "suites": [{
+    "id": "387b9ff7-91bc-43ba-8ebe-d2941247a785",
+    "name": "How-to",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c585e570-81ec-46db-9597-6ad8a638b35f"]
+  }, {
+    "id": "1e802d28-7ea7-4b75-95cc-7c473948fdf1",
+    "name": "Demo",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["70dd083d-a081-4c1c-9ebf-664435b64b74"]
+  }],
+  "urls": ["http://qalinux11:8809/"],
+  "plugins": []
+}
