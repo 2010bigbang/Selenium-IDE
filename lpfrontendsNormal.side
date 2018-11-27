@@ -17,14 +17,14 @@
       "id": "b934778b-494f-4564-a786-e628e4fa908d",
       "comment": "",
       "command": "pause",
-      "target": "10000",
+      "target": "20000",
       "targets": [],
       "value": ""
     }, {
       "id": "80b5a2a5-d60f-4c5a-81be-b17e350a051c",
       "comment": "",
       "command": "click",
-      "target": "xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]",
+      "target": "xpath=//div[3]/div[2]/div/div/div/div[2]",
       "targets": [
         ["css=.lmenu-page-1000:nth-child(1) > div:nth-child(2)", "css:finder"],
         ["xpath=//div[@id='id-root-content-div']/div/div/div[2]/div/div[3]/div[2]/div/div/div/div[2]", "xpath:idRelative"],
