@@ -17,7 +17,7 @@
       "id": "39d5e575-1a98-4179-9364-15662a1aacba",
       "comment": "",
       "command": "pause",
-      "target": "2000",
+      "target": "25000",
       "targets": [],
       "value": ""
     }, {
@@ -159,7 +159,7 @@
       "id": "de5b5553-f798-462f-986b-fa61fc7a9414",
       "comment": "",
       "command": "pause",
-      "target": "3000",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {
@@ -210,7 +210,7 @@
       "id": "95b477d4-ab1a-4593-88e6-47fb90db2f3d",
       "comment": "",
       "command": "pause",
-      "target": "5000",
+      "target": "20000",
       "targets": [],
       "value": ""
     }, {
@@ -318,7 +318,7 @@
       "id": "fc02faf4-1d9e-439d-82b7-105deaaa853c",
       "comment": "",
       "command": "pause",
-      "target": "2000",
+      "target": "20000",
       "targets": [],
       "value": ""
     }, {
@@ -349,7 +349,7 @@
       "id": "cdbe96b0-b619-4210-97a9-619ab156c918",
       "comment": "",
       "command": "pause",
-      "target": "2000",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {
@@ -445,7 +445,7 @@
       "id": "c80819a5-6817-42de-8ba0-84667e485194",
       "comment": "",
       "command": "pause",
-      "target": "5000",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {
@@ -475,7 +475,7 @@
       "id": "886dff5a-3d40-4932-acc0-95dad90beaa7",
       "comment": "",
       "command": "pause",
-      "target": "5000",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {
@@ -538,7 +538,7 @@
       "id": "6f91a300-0119-4833-8dc5-a2d6889c55a1",
       "comment": "",
       "command": "pause",
-      "target": "5000",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {
@@ -578,7 +578,7 @@
       "id": "c394419a-0fa3-470a-833b-b540a3b517ee",
       "comment": "",
       "command": "pause",
-      "target": "2000",
+      "target": "20000",
       "targets": [],
       "value": ""
     }, {
@@ -1564,7 +1564,7 @@
       "id": "1e083152-a532-46c0-bce5-542dbc89c5a8",
       "comment": "",
       "command": "pause",
-      "target": "2000",
+      "target": "20000",
       "targets": [],
       "value": ""
     }, {
@@ -1729,7 +1729,7 @@
       "id": "e82a2bca-7fbf-41de-8b61-22c9a99dd05f",
       "comment": "",
       "command": "pause",
-      "target": "2000",
+      "target": "20000",
       "targets": [],
       "value": ""
     }, {
@@ -1841,7 +1841,7 @@
       "id": "57426ab5-d774-4bc9-a5db-6039d469aff8",
       "comment": "",
       "command": "pause",
-      "target": "2000",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {
@@ -1886,7 +1886,7 @@
       "id": "003541d9-fdd7-40e3-8a7a-b3a3e5b0c825",
       "comment": "",
       "command": "pause",
-      "target": "2000",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {
@@ -1985,7 +1985,7 @@
       "id": "fb599688-4930-4fca-a9e4-67809fdadabf",
       "comment": "",
       "command": "pause",
-      "target": "2000",
+      "target": "20000",
       "targets": [],
       "value": ""
     }, {
@@ -2145,7 +2145,7 @@
       "id": "094c4837-3fa4-40cf-a2cb-fd30877cab2a",
       "comment": "",
       "command": "pause",
-      "target": "2000",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {
@@ -2222,7 +2222,7 @@
       "id": "e73cd5b9-b556-43f8-998a-9f357febbe46",
       "comment": "",
       "command": "pause",
-      "target": "5000",
+      "target": "20000",
       "targets": [],
       "value": ""
     }, {
@@ -2374,7 +2374,7 @@
       "id": "5bab120f-d726-4e6f-989b-7563b4853991",
       "comment": "",
       "command": "pause",
-      "target": "3000",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {
@@ -2462,7 +2462,7 @@
       "id": "7f4d4824-0158-4604-b846-924856ea21ca",
       "comment": "",
       "command": "pause",
-      "target": "2000",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {
@@ -2497,32 +2497,63 @@
       "targets": [],
       "value": ""
     }, {
-      "id": "e6ecbfcc-8ec5-49ea-b1b3-799b458480d3",
+      "id": "74986769-49dc-4112-a9c7-5d1c28a0db36",
       "comment": "",
-      "command": "verifyText",
-      "target": "xpath=//td/div",
+      "command": "click",
+      "target": "xpath=//th/div/div[2]",
       "targets": [
-        ["css=#id-app-admin-jobs-et---row-1 > .name > div", "css:finder"],
-        ["xpath=//tr[@id='id-app-admin-jobs-et---row-1']/td/div", "xpath:idRelative"],
-        ["xpath=//td/div", "xpath:position"]
+        ["css=div.et-column-divider-title", "css"],
+        ["css=.la-admin-jobs-table-column-name .et-column-divider-title", "css:finder"],
+        ["xpath=//div[@id='id-app-admin-jobs-et']/div/div[2]/div[2]/table/thead/tr/th/div/div[2]", "xpath:idRelative"],
+        ["xpath=//th/div/div[2]", "xpath:position"]
       ],
-      "value": "main"
+      "value": ""
     }, {
-      "id": "17e661c1-5a0e-482d-8837-62db0d2ea27e",
+      "id": "f9f2b32d-7b7e-48b8-87b0-c5f335ad7e91",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b0b5d22-45c4-4df1-85fb-4b86494f4719",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[2]/div[3]/div/div/div/div/div",
+      "targets": [
+        ["css=div.filter-btn", "css"],
+        ["css=.filter-btn", "css:finder"],
+        ["xpath=//div[@id='id-app-admin-jobs-et']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e481cfdc-fead-4307-a13a-b6ef5ab33202",
       "comment": "",
       "command": "pause",
       "target": "3000",
       "targets": [],
       "value": ""
     }, {
+      "id": "e6ecbfcc-8ec5-49ea-b1b3-799b458480d3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//tr[2]/td/div",
+      "targets": [
+        ["css=#id-app-admin-jobs-et---row-1 > .et-table-listmode-field-title > div", "css:finder"],
+        ["xpath=//tr[@id='id-app-admin-jobs-et---row-1']/td/div", "xpath:idRelative"],
+        ["xpath=//tr[2]/td/div", "xpath:position"]
+      ],
+      "value": "main"
+    }, {
       "id": "354ecfcb-db75-412f-ac1f-8832d527e917",
       "comment": "",
       "command": "verifyText",
-      "target": "xpath=//tr[22]/td/div",
+      "target": "xpath=//td/div",
       "targets": [
-        ["css=#id-app-admin-jobs-et---row-33 > .name > div", "css:finder"],
-        ["xpath=//tr[@id='id-app-admin-jobs-et---row-33']/td/div", "xpath:idRelative"],
-        ["xpath=//tr[22]/td/div", "xpath:position"]
+        ["css=#id-app-admin-jobs-et---row-13 > .et-table-listmode-field-title > div", "css:finder"],
+        ["xpath=//tr[@id='id-app-admin-jobs-et---row-13']/td/div", "xpath:idRelative"],
+        ["xpath=//td/div", "xpath:position"]
       ],
       "value": "check-platform"
     }]
@@ -2540,7 +2571,7 @@
       "id": "9bab83c9-0513-4564-9148-6ae0b82d995d",
       "comment": "",
       "command": "pause",
-      "target": "5000",
+      "target": "15000",
       "targets": [],
       "value": ""
     }, {
@@ -2558,7 +2589,7 @@
       "id": "7cda71e0-b213-4a56-98d0-8fdc7f43f3e5",
       "comment": "",
       "command": "pause",
-      "target": "5000",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {
@@ -2631,7 +2662,7 @@
       "id": "830eade3-36b3-43ae-8a77-4b89e1205d01",
       "comment": "",
       "command": "pause",
-      "target": "2000",
+      "target": "20000",
       "targets": [],
       "value": ""
     }, {
@@ -3148,7 +3179,7 @@
       "id": "29923cba-6b27-4e8a-97fe-611d23800ac9",
       "comment": "",
       "command": "pause",
-      "target": "5000",
+      "target": "20000",
       "targets": [],
       "value": ""
     }, {
@@ -3440,7 +3471,7 @@
       "id": "d5a202d3-7e70-4b3e-a47d-ccf5c43b99c1",
       "comment": "",
       "command": "pause",
-      "target": "2000",
+      "target": "20000",
       "targets": [],
       "value": ""
     }, {
@@ -3458,7 +3489,7 @@
       "id": "8e3e76b8-03d3-4d37-998a-b8adfbf2fc73",
       "comment": "",
       "command": "pause",
-      "target": "4000",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {
@@ -3647,7 +3678,7 @@
       "id": "8756c487-7a5a-444f-9930-75476fe0f9f4",
       "comment": "",
       "command": "pause",
-      "target": "5000",
+      "target": "20000",
       "targets": [],
       "value": ""
     }, {
@@ -3669,7 +3700,7 @@
       "id": "67ca2fe1-97dd-45e5-afc4-5d10ab45935e",
       "comment": "",
       "command": "pause",
-      "target": "3000",
+      "target": "10000",
       "targets": [],
       "value": ""
     }, {

@@ -1012,6 +1012,13 @@
       ],
       "value": ""
     }, {
+      "id": "c2c51bf5-4da8-4d53-9911-adfa4ecb7497",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "6a6987e1-347c-4bf5-b94c-543a2bbe563e",
       "comment": "",
       "command": "select",
