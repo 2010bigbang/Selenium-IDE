@@ -1,0 +1,14 @@
+<testlandscape>
+  <installations>
+    <installation>
+      <name>lpfrontends</name>
+      <system>qawin2016-l1</system>
+      <user>testing\Administrator</user>
+      <password>U2FsdGVkX18pI76E4WzWrsX9GsYsie8pVg0CodOe4KM=</password>
+      <product>lpfrontends</product>
+      <home>C:\Libelle\platform</home>
+      <port>8800</port>
+      <compiletarget>win.2012.x86.x64.vc100</compiletarget>     
+    </installation>
+  </installations>
+</testlandscape>
