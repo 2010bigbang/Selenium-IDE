@@ -1,0 +1,36 @@
+<testcase>
+  <description>Generic Standard test for Libelle DataAnalyzer</description>
+  <steps>  
+    <!--step>
+      <name>hallo</name>
+      <type>cmd</type>
+      <code><![CDATA[
+        set PATH=%PATH%;C:\libelle\selenium\WebDriver\chromedriver.exe;C:\libelle\selenium\WebDriver\geckodriver.exe;C:\libelle\selenium\WebDriver\;C:\Users\Administrator\AppData\Roaming\npm
+        echo %PATH%
+        selenium-side-runner  -c "browserName=chrome" C:\libelle\selenium\Platform.side 2>&1
+        ]]>
+      </code>
+      <results>
+        <ok>passed</ok>
+        <error>failed</error>
+      </results>
+    </step-->
+    <step>
+      <name>hallo</name>
+      <type>cmd</type>
+      <code><![CDATA[
+        set PATH=%PATH%;C:\libelle\selenium\WebDriver\chromedriver.exe;C:\libelle\selenium\WebDriver\geckodriver.exe;C:\libelle\selenium\WebDriver\;C:\Users\Administrator\AppData\Roaming\npm
+        echo %PATH%
+        selenium-side-runner  -c "browserName=chrome" $(LSHTEST)$(fileseparator)tests$(fileseparator)plans$(fileseparator)lpfrontends$(fileseparator)medium$(fileseparator)lpfrontendsNormal.side 2>&1
+        ]]>
+      </code>
+      <results>
+        <ok>passed</ok>
+        <error>failed</error>
+      </results>
+    </step>
+    
+    
+  </steps>
+</testcase>
+
